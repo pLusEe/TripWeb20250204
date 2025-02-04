@@ -1,0 +1,110 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+nav {
+    background: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5a4b41;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #f5f0eb;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3e2723;
+}
+
+.area {
+    padding: 2rem 5%;
+    margin: 2rem 0;
+}
+
+.area h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #5a4b41;
+}
+
+.cafe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cafe-card {
+    background: white;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.cafe-card:hover {
+    transform: translateY(-5px);
+}
+
+.cafe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cafe-card h3 {
+    margin: 1rem 0;
+    color: #3e2723;
+}
+
+.cafe-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .cafe-card {
+        width: 100%;
+    }
+}
