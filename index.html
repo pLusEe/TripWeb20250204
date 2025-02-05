@@ -9,57 +9,200 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#mukojima">Mukojima</a></li>
-            <li><a href="#hikifune">Hikifune</a></li>
+            <li><a href="#koguma">KOGUMA CAFE</a></li>
+            <li><a href="#edokibashi">EDOKIBASHI</a></li>
+            <li><a href="#ittetsu">ITTETSU</a></li>
         </ul>
     </nav>
 
-    <section class="hero" id="home">
-        <h1>Specialty Coffee in Sumida</h1>
-        <p>Discover hidden coffee gems in Tokyo's Sumida City</p>
-    </section>
-
-    <section class="area" id="mukojima">
-        <h2>Mukojima Coffee</h2>
-        <div class="cafe-container">
-            <div class="cafe-card">
-                <img src="https://source.unsplash.com/400x300/?coffee,capybara" alt="Capybara Cafe">
-                <h3>Capybara Cafe</h3>
-                <p>🕒 10:00-18:00 (Closed Tue)<br>
-                📍 3-12-7 Mukojima<br>
-                ✨ Unique animal cafe with friendly capybaras</p>
+    <!-- KOGUMA CAFE -->
+    <section class="shop" id="koguma">
+        <div class="shop-header">
+            <img src="images/koguma-store.jpg" alt="Koguma Cafe" class="store-photo">
+            <h2>KOGUMA CAFE</h2>
+            <div class="shop-info">
+                <p>🕒 11:30 AM - 6:30 PM (Closed Wed & Thu)<br>
+                🚶 6min walk from Hikifune Station<br>
+                ⏳ Recommended stay: 1.5 hours<br>
+                💴 Price: ¥1,000–2,000 per person</p>
             </div>
-
-            <div class="cafe-card">
-                <img src="https://source.unsplash.com/400x300/?coffee,traditional" alt="Cafe Ether">
-                <h3>Cafe Ether</h3>
-                <p>🕒 08:00-19:00<br>
-                📍 2-14-5 Mukojima<br>
-                ✨ Vintage atmosphere & handmade desserts</p>
+        </div>
+        
+        <div class="carousel-container">
+            <div class="menu-container" id="koguma-carousel">
+                <div class="menu-item">
+                    <img src="images/koguma-coffee.jpg" alt="Bear Latte">
+                    <h3>Bear Latte Art ¥650</h3>
+                    <button onclick="playAudio('koguma-coffee')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/koguma-pancake.jpg" alt="Honey Pancake">
+                    <h3>Honey Pancake ¥980</h3>
+                    <button onclick="playAudio('koguma-pancake')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/koguma-sandwich.jpg" alt="Egg Sandwich">
+                    <h3>Egg Sandwich ¥550</h3>
+                    <button onclick="playAudio('koguma-sandwich')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/koguma-tea.jpg" alt="Herbal Tea">
+                    <h3>Herbal Tea ¥450</h3>
+                    <button onclick="playAudio('koguma-tea')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/koguma-cake.jpg" alt="Cheesecake">
+                    <h3>Cheesecake ¥620</h3>
+                    <button onclick="playAudio('koguma-cake')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/koguma-icecream.jpg" alt="Matcha Ice Cream">
+                    <h3>Matcha Ice Cream ¥480</h3>
+                    <button onclick="playAudio('koguma-icecream')">PLAY ORDER</button>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="area" id="hikifune">
-        <h2>Hikifune Coffee</h2>
-        <div class="cafe-container">
-            <div class="cafe-card">
-                <img src="https://source.unsplash.com/400x300/?coffee,bear" alt="Koguma Cafe">
-                <h3>Koguma Cafe</h3>
-                <p>🕒 11:00-20:00<br>
-                📍 1-22-8 Hikifune<br>
-                ✨ Cozy space with bear-themed latte art</p>
+    <!-- EDOKIBASHI WORKSHOP -->
+    <section class="shop" id="edokibashi">
+        <div class="shop-header">
+            <img src="images/edokibashi-store.jpg" alt="Edokibashi Workshop" class="store-photo">
+            <h2>EDOKIBASHI WORKSHOP</h2>
+            <div class="shop-info">
+                <p>🕒 10 AM - 5 PM (Closed Sun)<br>
+                🚶 3min walk from station<br>
+                ⏳ Recommended stay: 30min<br>
+                💴 Price: ¥1,000 per person</p>
             </div>
-
-            <div class="cafe-card">
-                <img src="https://source.unsplash.com/400x300/?coffee,minimalist" alt="Hikifune Coffee Base">
-                <h3>Hikifune Coffee Base</h3>
-                <p>🕒 07:30-17:00<br>
-                📍 3-8-1 Hikifune<br>
-                ✨ Award-winning single origin beans</p>
+        </div>
+        
+        <div class="carousel-container">
+            <div class="menu-container" id="edokibashi-carousel">
+                <div class="menu-item">
+                    <img src="images/edokibashi-curry.jpg" alt="Pork Curry">
+                    <h3>Pork Curry ¥1,280</h3>
+                    <button onclick="playAudio('edokibashi-curry')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/edokibashi-ice.jpg" alt="Matcha Ice">
+                    <h3>Matcha Kakigori ¥890</h3>
+                    <button onclick="playAudio('edokibashi-ice')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/edokibashi-beer.jpg" alt="Craft Beer">
+                    <h3>Craft Beer ¥780</h3>
+                    <button onclick="playAudio('edokibashi-beer')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/edokibashi-ramen.jpg" alt="Ramen">
+                    <h3>Sumida Ramen ¥1,100</h3>
+                    <button onclick="playAudio('edokibashi-ramen')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/edokibashi-sushi.jpg" alt="Sushi">
+                    <h3>Sushi Platter ¥1,500</h3>
+                    <button onclick="playAudio('edokibashi-sushi')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/edokibashi-dessert.jpg" alt="Matcha Dessert">
+                    <h3>Matcha Parfait ¥950</h3>
+                    <button onclick="playAudio('edokibashi-dessert')">PLAY ORDER</button>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- ITTETSU DESSERT -->
+    <section class="shop" id="ittetsu">
+        <div class="shop-header">
+            <img src="images/ittetsu-store.jpg" alt="Ittetsu Dessert" class="store-photo">
+            <h2>ITTETSU DESSERT</h2>
+            <div class="shop-info">
+                <p>🕒 9:30 AM - 6 PM (Closed Wed)<br>
+                🚶 14min walk from station<br>
+                ⏳ Recommended stay: 30min<br>
+                💴 Price: ¥1,000 per person</p>
+            </div>
+        </div>
+        
+        <div class="carousel-container">
+            <div class="menu-container" id="ittetsu-carousel">
+                <div class="menu-item">
+                    <img src="images/ittetsu-cheese.jpg" alt="Cheesecake">
+                    <h3>Sakura Cheesecake ¥620</h3>
+                    <button onclick="playAudio('ittetsu-cheese')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ittetsu-mochi.jpg" alt="Strawberry Mochi">
+                    <h3>Strawberry Daifuku ¥480</h3>
+                    <button onclick="playAudio('ittetsu-mochi')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ittetsu-tea.jpg" alt="Herbal Tea">
+                    <h3>Herbal Tea ¥450</h3>
+                    <button onclick="playAudio('ittetsu-tea')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ittetsu-wagashi.jpg" alt="Wagashi">
+                    <h3>Seasonal Wagashi ¥520</h3>
+                    <button onclick="playAudio('ittetsu-wagashi')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ittetsu-pudding.jpg" alt="Matcha Pudding">
+                    <h3>Matcha Pudding ¥580</h3>
+                    <button onclick="playAudio('ittetsu-pudding')">PLAY ORDER</button>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ittetsu-roll.jpg" alt="Matcha Roll">
+                    <h3>Matcha Swiss Roll ¥680</h3>
+                    <button onclick="playAudio('ittetsu-roll')">PLAY ORDER</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 版权信息 -->
+    <footer class="copyright">
+        <p>© SDI-A WORKSHOP - Giraffe Team</p>
+        <p>From 2025.02.3 to 02.7 </p>
+    </footer>
+
+    <script>
+        // 自动轮播
+        function startAutoCarousel() {
+            document.querySelectorAll('.menu-container').forEach(carousel => {
+                let scrollAmount = 0;
+                setInterval(() => {
+                    const itemWidth = carousel.querySelector('.menu-item').offsetWidth;
+                    const maxScroll = carousel.scrollWidth - carousel.clientWidth;
+                    
+                    if (scrollAmount >= maxScroll) {
+                        scrollAmount = 0;
+                        carousel.scrollTo({ left: 0, behavior: 'smooth' });
+                    } else {
+                        scrollAmount += itemWidth + 20;
+                        carousel.scrollTo({
+                            left: scrollAmount,
+                            behavior: 'smooth'
+                        });
+                    }
+                }, 3000);
+            });
+        }
+
+        // 音频播放
+        function playAudio(id) {
+            const allAudio = document.querySelectorAll('audio');
+            allAudio.forEach(audio => audio.pause());
+            const audio = document.getElementById(id);
+            if(audio) audio.play();
+        }
+
+        // 初始化
+        window.onload = () => {
+            startAutoCarousel();
+        }
+    </script>
 </body>
 </html>
