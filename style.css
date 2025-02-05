@@ -57,6 +57,12 @@ nav a:hover {
     font-size: 2rem;
 }
 
+.shop-header h3 {
+    color: #6c6c6c;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
 .store-photo {
     width: 100%;
     max-width: 800px;

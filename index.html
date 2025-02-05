@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumida Coffee Guide</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <ul>
@@ -22,43 +24,44 @@
             <h2>KOGUMA CAFE</h2>
             <div class="shop-info">
                 <p>🕒 11:30 AM - 6:30 PM (Closed Wed & Thu)<br>
-                🚶 6min walk from Hikifune Station<br>
-                ⏳ Recommended stay: 1.5 hours<br>
-                💴 Price: ¥1,000–2,000 per person</p>
+                    🚶 6min walk from Hikifune Station<br>
+                    ⏳ Recommended stay: 1.5 hours<br>
+                    💴 Price: ¥1,000–2,000 per person</p>
             </div>
+            <h3>recommendation list</h3>
         </div>
-        
+
         <div class="carousel-container">
             <div class="menu-container" id="koguma-carousel">
                 <div class="menu-item">
-                    <img src="images/koguma-coffee.jpg" alt="Bear Latte">
+                    <img src="images/a1.jpg" alt="Bear Latte">
                     <h3>Bear Latte Art ¥650</h3>
-                    <button onclick="playAudio('koguma-coffee')">PLAY ORDER</button>
+                    <button onclick="playAudio('a1')">PLAY ORDER</button>
                 </div>
                 <div class="menu-item">
                     <img src="images/koguma-pancake.jpg" alt="Honey Pancake">
                     <h3>Honey Pancake ¥980</h3>
-                    <button onclick="playAudio('koguma-pancake')">PLAY ORDER</button>
+                    <button onclick="playAudio('a2')">PLAY ORDER</button>
                 </div>
                 <div class="menu-item">
                     <img src="images/koguma-sandwich.jpg" alt="Egg Sandwich">
                     <h3>Egg Sandwich ¥550</h3>
-                    <button onclick="playAudio('koguma-sandwich')">PLAY ORDER</button>
+                    <button onclick="playAudio('a3')">PLAY ORDER</button>
                 </div>
                 <div class="menu-item">
                     <img src="images/koguma-tea.jpg" alt="Herbal Tea">
                     <h3>Herbal Tea ¥450</h3>
-                    <button onclick="playAudio('koguma-tea')">PLAY ORDER</button>
+                    <button onclick="playAudio('a4')">PLAY ORDER</button>
                 </div>
                 <div class="menu-item">
                     <img src="images/koguma-cake.jpg" alt="Cheesecake">
                     <h3>Cheesecake ¥620</h3>
-                    <button onclick="playAudio('koguma-cake')">PLAY ORDER</button>
+                    <button onclick="playAudio('a5')">PLAY ORDER</button>
                 </div>
                 <div class="menu-item">
                     <img src="images/koguma-icecream.jpg" alt="Matcha Ice Cream">
                     <h3>Matcha Ice Cream ¥480</h3>
-                    <button onclick="playAudio('koguma-icecream')">PLAY ORDER</button>
+                    <button onclick="playAudio('a6')">PLAY ORDER</button>
                 </div>
             </div>
         </div>
@@ -71,12 +74,13 @@
             <h2>EDOKIBASHI WORKSHOP</h2>
             <div class="shop-info">
                 <p>🕒 10 AM - 5 PM (Closed Sun)<br>
-                🚶 3min walk from station<br>
-                ⏳ Recommended stay: 30min<br>
-                💴 Price: ¥1,000 per person</p>
+                    🚶 3min walk from station<br>
+                    ⏳ Recommended stay: 30min<br>
+                    💴 Price: ¥1,000 per person</p>
             </div>
+            <h3>recommendation list</h3>
         </div>
-        
+
         <div class="carousel-container">
             <div class="menu-container" id="edokibashi-carousel">
                 <div class="menu-item">
@@ -120,12 +124,13 @@
             <h2>ITTETSU DESSERT</h2>
             <div class="shop-info">
                 <p>🕒 9:30 AM - 6 PM (Closed Wed)<br>
-                🚶 14min walk from station<br>
-                ⏳ Recommended stay: 30min<br>
-                💴 Price: ¥1,000 per person</p>
+                    🚶 14min walk from station<br>
+                    ⏳ Recommended stay: 30min<br>
+                    💴 Price: ¥1,000 per person</p>
             </div>
+            <h3>recommendation list</h3>
         </div>
-        
+
         <div class="carousel-container">
             <div class="menu-container" id="ittetsu-carousel">
                 <div class="menu-item">
@@ -168,6 +173,26 @@
         <p>From 2025.02.3 to 02.7 </p>
     </footer>
 
+    <!-- 添加音频元素 -->
+    <audio id="a1" src="audio/a1.mp3"></audio>
+    <audio id="a2" src="path/to/audio2.mp3"></audio>
+    <audio id="a3" src="path/to/audio3.mp3"></audio>
+    <audio id="a4" src="path/to/audio4.mp3"></audio>
+    <audio id="a5" src="path/to/audio5.mp3"></audio>
+    <audio id="a6" src="path/to/audio6.mp3"></audio>
+    <audio id="edokibashi-curry" src="path/to/edokibashi-curry.mp3"></audio>
+    <audio id="edokibashi-ice" src="path/to/edokibashi-ice.mp3"></audio>
+    <audio id="edokibashi-beer" src="path/to/edokibashi-beer.mp3"></audio>
+    <audio id="edokibashi-ramen" src="path/to/edokibashi-ramen.mp3"></audio>
+    <audio id="edokibashi-sushi" src="path/to/edokibashi-sushi.mp3"></audio>
+    <audio id="edokibashi-dessert" src="path/to/edokibashi-dessert.mp3"></audio>
+    <audio id="ittetsu-cheese" src="path/to/ittetsu-cheese.mp3"></audio>
+    <audio id="ittetsu-mochi" src="path/to/ittetsu-mochi.mp3"></audio>
+    <audio id="ittetsu-tea" src="path/to/ittetsu-tea.mp3"></audio>
+    <audio id="ittetsu-wagashi" src="path/to/ittetsu-wagashi.mp3"></audio>
+    <audio id="ittetsu-pudding" src="path/to/ittetsu-pudding.mp3"></audio>
+    <audio id="ittetsu-roll" src="path/to/ittetsu-roll.mp3"></audio>
+
     <script>
         // 自动轮播
         function startAutoCarousel() {
@@ -176,7 +201,7 @@
                 setInterval(() => {
                     const itemWidth = carousel.querySelector('.menu-item').offsetWidth;
                     const maxScroll = carousel.scrollWidth - carousel.clientWidth;
-                    
+
                     if (scrollAmount >= maxScroll) {
                         scrollAmount = 0;
                         carousel.scrollTo({ left: 0, behavior: 'smooth' });
@@ -196,7 +221,13 @@
             const allAudio = document.querySelectorAll('audio');
             allAudio.forEach(audio => audio.pause());
             const audio = document.getElementById(id);
-            if(audio) audio.play();
+            if (audio) {
+                try {
+                    audio.play();
+                } catch (error) {
+                    console.error(`Failed to play audio: ${error.message}`);
+                }
+            }
         }
 
         // 初始化
@@ -205,4 +236,5 @@
         }
     </script>
 </body>
+
 </html>
